@@ -124,8 +124,3 @@ let user = 'admin';
 let userStatus = 'logged in';
 let message = `User ${user} has successfully ${userStatus}.`;
 console.log(message);
-
-
-
-
-
