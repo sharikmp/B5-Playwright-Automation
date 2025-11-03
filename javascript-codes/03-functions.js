@@ -69,3 +69,30 @@ console.log(add(5, 300)); // 8
 console.log(add(500, 3)); // 8
 
 
+// ========= Anonomus Function =========
+
+
+const logSuccess = function () {
+    console.log('Test step completed!');
+};
+
+logSuccess();
+
+
+// ====== Arrow function ==============
+const logFailure = () => {
+    console.log('Test step failed!');
+}
+
+logFailure();
+
+
+// ===== Async function ======
+
+
+const openUrl = async (url) => {
+    await console.log(`Opening - ${url}`);
+}
+
+await openUrl("https://amazon.com");
+

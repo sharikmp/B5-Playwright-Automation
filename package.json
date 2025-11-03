@@ -1,0 +1,22 @@
+{
+  "name": "b5-playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharikmp/B5-Playwright-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharikmp/B5-Playwright-Automation/issues"
+  },
+  "homepage": "https://github.com/sharikmp/B5-Playwright-Automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  }
+}
