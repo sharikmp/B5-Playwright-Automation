@@ -28,4 +28,11 @@ console.log(multiplication(7,6));
 console.log(divide(10,2));
 
 //calculating power 
+function power(a){
+
+return a*a;
+
+}
+console.log(power(5));
 //calculating factorial
+

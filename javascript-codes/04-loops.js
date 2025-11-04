@@ -15,7 +15,23 @@ for(let i = 0; i < 4; i++) {
 
 // Task: Print Marks along with name like - Amy scored 90
 
+for(let i=0;i<8;i++){
+    console.log(`${names[i]} scored ${marks[i]}`)
+
+}
+
 // Task: Calc and print the highest and lowest scorer with name - Charles scored 98 
+console.log("===== Lowest scorer calculation =========")
+
+const smallest=Math.min(...marks);
+
+for(let i=0;i<=names.length;i++){
+
+    if(marks[i]==smallest){
+        console.log(names[i],marks[i])
+        break
+    }
+}
 
 console.log("===== Highest scorer calculation =========")
 
@@ -45,18 +61,31 @@ console.log("========== Find the sum of 'n' Natural numbers ============")
 
 // Task: Find the sum of 'n' Natural numbers 
 
-const n = 1000; // 1 + 2 + 3 + ... + 999 + 1000
+//const n = 1000; // 1 + 2 + 3 + ... + 999 + 1000
 
 function sumOfNatutalNumbers(n) {
     // loop
-    return "ToDo: "+n;
+    let sum=0;
+    for(let i=0;i<=n;i++){
+        sum=sum+i;
+    }
+    return sum;
 }
+console.log(sumOfNatutalNumbers(10));
 
-console.log(sumOfNatutalNumbers(100));
-console.log(sumOfNatutalNumbers(200));
-console.log(sumOfNatutalNumbers(1000));
-console.log(sumOfNatutalNumbers(10000));
+//console.log(sumOfNatutalNumbers(200));
+//console.log(sumOfNatutalNumbers(1000));
+//console.log(sumOfNatutalNumbers(10000));
 
 
 
 console.log("========== Print the array (names) in reverse order ============");
+
+for(let i=names.length;i>=0;i--){
+
+console.log(names[i])
+
+}
+
+
+//
