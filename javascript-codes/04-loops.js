@@ -1,15 +1,15 @@
 
-for(let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 
 console.log("Loop completed!");
 
-const names = ['Amy', 'Bob', 'Charles', 'Don1', 'Don2', 'Don3', 'Don4', 'Don5'];
-const marks = [90, 80, 98, 65, 100, 190, 60, 85];
+let names = ['Amy', 'Bob', 'Charles', 'Don1', 'Don2', 'Don3', 'Don4', 'Don5'];
+let marks = [90, 80, 98, 65, 100, 190, 60, 85];
 console.log(names.length);
 
-for(let i = 0; i < 4; i++) {
+for (let i = 0; i < 4; i++) {
     console.log(names[i]);
 }
 
@@ -37,8 +37,8 @@ console.log("===== Highest scorer calculation =========")
 
 const largest = Math.max(...marks);
 
-for(let i = 0; i < names.length; i++) {
-    if(marks[i] === largest) {
+for (let i = 0; i < names.length; i++) {
+    if (marks[i] === largest) {
         console.log(names[i], marks[i]);
         break;
     }
@@ -50,14 +50,14 @@ const johnMarks = [90, 91, 92, 94, 95];
 
 let totalMarks = 0;
 
-for(let i = 0; i < johnMarks.length; i++) {
+for (let i = 0; i < johnMarks.length; i++) {
     totalMarks += johnMarks[i];
 }
 
 console.log("Total marks:", totalMarks);
 
 
-console.log("========== Find the sum of 'n' Natural numbers ============")
+console.log("========== Find the sum of 'n' Natural numbers ============");
 
 // Task: Find the sum of 'n' Natural numbers 
 
