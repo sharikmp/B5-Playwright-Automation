@@ -26,15 +26,7 @@ test('Perform login', {tag: ["@smoke", "@login", "@regression"]}, async ( {page}
     await page.getByText('Click here').click();
     // await page.getByTestId('register-button').click();
     await page.pause();
-<<<<<<< Updated upstream
 
     const title = await page.locator("[data-cy='title-recipe'] h2 span").first().textContent();
     expect(title?.toLowerCase()).toContain("samsung");
 });
-=======
-});
-
-
-
-////td[text()='Island Trading']/following-sibling::td/following-sibling::td
->>>>>>> Stashed changes
