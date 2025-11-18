@@ -2,7 +2,9 @@
   "name": "b5-playwright-automation",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sharikmp/B5-Playwright-Automation.git"

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('UI interaction - dropdowns', { tag: ["@smoke", "@login", "@dropdown"] }, async ({ page }) => {
+test('UI interaction - dropdowns', { tag: ["@smoke", "@login", "@dropdown"] }, async ({ page }) => {
     await page.goto("https://sharikmp.github.io/learn.automation/dropdowns.html");
     await page.locator("#language").selectOption({ label: "Python" });
     await page.locator("#language").selectOption({ value: "typescript" });
