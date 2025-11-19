@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('UI Interactions dropdown',{tag:["@smoke","@login","@dropdown"]} ,async({page})=>{
+test('UI Interactions dropdown',{tag:["@smoke","@login","@dropdown"]} ,async({page})=>{
 
 
     await page.goto("https://sharikmp.github.io/learn.automation/dropdowns.html");
