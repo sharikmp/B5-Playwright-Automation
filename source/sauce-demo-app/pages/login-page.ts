@@ -10,7 +10,7 @@ export class LoginPage {
 
     private locators = {
         usernameSelector: "#user-name",
-        passwordSelector: "#pwd",
+        passwordSelector: "#password",
         loginButtonSelector: "#login-button",
         errorText: '[data-test="error"]',
     }
